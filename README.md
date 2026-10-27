@@ -111,3 +111,7 @@ Historical results guide a new investigation; they do not prove that another mac
 This narrative was prepared from the existing GENESIS-1 controller documentation, GENESIS-2 final engineering report, GENESIS-3 registry report, GENESIS-3.1 capability and advanced intelligence reports, and GENESIS-4 Financial Control report. Those working documents contain machine-specific evidence and are retained privately rather than copied here.
 
 This repository is a documentation foundation for future development. It contains no platform implementation, credentials, private account identifiers, local configuration or financial execution commands.
+
+## About the human originator
+
+[Mihai-Bogdan Simion](https://github.com/chatgptopenaiagi/ABOUT-ME) defines the GENESIS objectives, contributes conceptual architectural directions and chooses engineering priorities. His ABOUT-ME repository introduces his engineering vision and approach to human-directed collaboration with OpenAI Codex.
