@@ -2,9 +2,20 @@
 
 Human-directed engineering with OpenAI Codex, persistent software knowledge and a simulated financial platform.
 
-This repository documents the ideas, development process and verified achievements of five GENESIS stages. It contains three Markdown files. The platform source code, execution environments, account data and private engineering evidence remain outside this repository.
+This repository documents the ideas, development process and verified achievements of five GENESIS stages. The human owner defines the goals; Codex performs authorized engineering work using existing software tools. The platform source code, execution environments, account data and private engineering evidence remain outside this repository.
 
 **Status:** an existing local engineering platform with tested research, capability intelligence and simulated financial operations. Real financial-provider integrations and production deployment remain future work.
+
+## Explore the project
+
+| Read | What it explains |
+|---|---|
+| [Project history](PROJECT-HISTORY.md) | How the five GENESIS stages evolved. |
+| [Engineering philosophy](ENGINEERING-PHILOSOPHY.md) | Human direction, AI execution and reusable verified knowledge. |
+| [Architecture](ARCHITECTURE.md) | Components, accounting flow and integration boundaries. |
+| [Capabilities](CAPABILITIES.md) | Recorded functional results and their limits. |
+| [Roadmap](ROADMAP.md) | Future concepts and the checks they would require. |
+| [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md) | How to propose improvements and what changed. |
 
 ## Vision and motivation
 
@@ -82,6 +93,18 @@ Hub trading uses a deterministic fixture, idealized simulated execution and exis
 ## Future development
 
 Potential next steps include better dependency reasoning, richer financial analysis, more realistic research models, explainable reports and explicitly authorized provider integrations. These are proposals, not delivered capabilities. See [ROADMAP.md](ROADMAP.md).
+
+## For Future AI Engineering Agents
+
+This repository preserves engineering knowledge to help future Codex instances understand prior work and continue from available implementation sources. It is primarily documentation, not a complete distribution of the platform. Cloning it does not supply the original Windows workspace, installed tools or private evidence.
+
+- Read [AGENTS.md](AGENTS.md) for persistent repository instructions.
+- Follow the [continuation guide](CONTINUATION-GUIDE.md) before proposing implementation work.
+- Use the [system inventory](SYSTEM-INVENTORY.md) to locate original components when those sources are available.
+- Review [engineering knowledge](ENGINEERING-KNOWLEDGE.md) for tested combinations, failures and repairs.
+- Consult the [knowledge index](KNOWLEDGE-INDEX.md) for all documents and the original evidence sources.
+
+Historical results guide a new investigation; they do not prove that another machine has the same capabilities. Continuing from existing source and reconstructing a system from descriptions are different projects.
 
 ## Evidence and publication scope
 

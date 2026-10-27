@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "purpose": "Portable summary of historical engineering evidence; not a current machine inventory or executable acceptance result.",
+  "evidence_period": "2026-10-26/2026-10-27",
+  "source_path_base": "Original engineering workspace, historically C:\\xampp\\TRADING; source reports are not distributed in this repository.",
+  "verified_again_for_documentation_publication": false,
+  "snapshots": [
+    {
+      "stage": "GENESIS-2",
+      "source": "REPORTS/GENESIS-2-FINAL-REPORT.md",
+      "source_sections": ["A. Acquisition summary", "B. Installation summary"],
+      "evidence_date": "2026-10-26",
+      "acquired_projects": 10,
+      "scoped_functionally_verified_projects": 10,
+      "recorded_builds": 7,
+      "partial_optional_feature_states": 3,
+      "limitations": ["States coexist; local checks do not establish every optional feature or broker readiness.", "Demonstrations used synthetic or public data and placed no broker orders."]
+    },
+    {
+      "stage": "GENESIS-3.1 advanced",
+      "source": "REPORTS/GENESIS-3.1-ADVANCED-INTELLIGENCE.md",
+      "source_sections": ["Opening snapshot", "7. Acceptance scenarios and tests", "8. Measured performance and optimisation"],
+      "evidence_date": "2026-10-27",
+      "inventory_records": 1645,
+      "graph_nodes": 1807,
+      "relationships": 496,
+      "workflows": 47,
+      "persistent_outcomes": 92,
+      "causal_cases": 20,
+      "scoped_tests_passed": 131,
+      "acceptance_scenarios_passed": 10,
+      "paired_numerical_routing_measurement": {
+        "query": "numerical matrix operations",
+        "warmups_per_engine": 3,
+        "alternating_pairs": 50,
+        "old_median_ms": 10.1314,
+        "advanced_median_ms": 0.3299,
+        "semantic_parity_passed": true,
+        "scope": "Same frozen graph and Python runtime; no general application or financial performance claim."
+      },
+      "limitations": ["Counts are components and evidence, not unique installed applications.", "Individual tool proofs do not establish arbitrary end-to-end compatibility.", "The separate local inference/MCP chain remained blocked."]
+    },
+    {
+      "stage": "GENESIS-4",
+      "source": "REPORTS/GENESIS-4-FINANCIAL-CONTROL.md",
+      "source_sections": ["Result", "Database results", "API capabilities", "MCP integration", "Executed tests"],
+      "evidence_date": "2026-10-27",
+      "hub_tests_passed": 74,
+      "active_workspace_regressions_passed": 305,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "api_distinct_paths": 29,
+      "mcp_tools_discovered": 17,
+      "simulated_acceptance": {
+        "currency": "EUR",
+        "opening_deposit": "100.00",
+        "purchase": "25.00",
+        "fee": "0.00",
+        "ending_balance": "75.00",
+        "journals": 2,
+        "ledger_entries": 4,
+        "reconciliation": "PASSED",
+        "replay_duplicate_posting": false
+      },
+      "operational_ledger": "SQLite",
+      "sql_server_status": "Snapshot adapter tested using temporary tables and rollback; persistent deployment not claimed.",
+      "limitations": ["Hub accounts, providers, payments and positions are synthetic.", "No real banking connector, live broker mutation or model request was used in the recorded acceptance.", "Suite scopes differ and counts must not be added into an invented combined verification."]
+    }
+  ],
+  "portable_use": "Consult KNOWLEDGE-INDEX.md for provenance and CONTINUATION-GUIDE.md before using accessible implementation source. Verify the actual environment separately."
+}

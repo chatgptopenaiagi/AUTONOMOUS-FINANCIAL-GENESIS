@@ -59,3 +59,9 @@ Real-provider work requires owner authorization and production controls appropri
 - Measure routing latency, selection correctness and actual reuse under comparable conditions.
 
 The guiding principle remains: discover what already works, select the smallest suitable implementation, verify the result and preserve the evidence for the next task.
+
+## Continuing from this roadmap
+
+For each proposed improvement, first identify an accessible existing component through the [system inventory](SYSTEM-INVENTORY.md) and check the [engineering lessons](ENGINEERING-KNOWLEDGE.md). Define the smallest useful change, its dependencies and a bounded acceptance check before implementation.
+
+If the original source is unavailable, follow the [continuation guide](CONTINUATION-GUIDE.md) and make the missing access explicit. A documentation proposal does not mean the feature has been built, deployed or independently verified.

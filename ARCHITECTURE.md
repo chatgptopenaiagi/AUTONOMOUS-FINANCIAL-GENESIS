@@ -14,24 +14,25 @@ CAPABILITY INTELLIGENCE
      v
 FINANCIAL CONTROL API
      |
-     +-- ACCOUNT ENGINE
-     +-- PAYMENT ENGINE
-     +-- TRADING ENGINE
-     |
-     v
-TRANSACTION CONTROLLER
-     |
-     v
-SIMULATED FINANCIAL PROVIDERS
-     |
-     v
-SQLITE ACCOUNTING LEDGER
-     |
-     v
-FINANCIAL REPORTS
+     +-- ACCOUNT ENGINE --+
+     +-- PAYMENT ENGINE --+--+
+     +-- TRADING ENGINE --+  |
+                            v
+                 TRANSACTION CONTROLLER
+                            |
+                            v
+                 SIMULATED FINANCIAL PROVIDERS
+                            |
+                            v
+                 SQLITE ACCOUNTING LEDGER
+                            |
+                            v
+                 FINANCIAL REPORTS
 ```
 
 The diagram is a conceptual responsibility flow. The three engines feed shared transaction and accounting controls. It does not imply that capability selection automatically authorizes execution, or that every financial operation must pass through a model request.
+
+The controller writes accounting results after checking provider evidence; providers do not write directly into the hub ledger. Intent and recovery records are persisted before settlement, so the diagram is not a strict sequence of first database writes. The dashboard and MCP bridge are alternative clients of the same local API.
 
 ## Human owner and OpenAI Codex
 
@@ -79,3 +80,5 @@ SQL Server currently provides a separately prepared snapshot adapter. Its tempor
 Local API calls, browser behavior, MCP exchange, synthetic ledger effects, replay protection and recovery were tested in the recorded GENESIS-4 run. This is a local single-owner simulation, with no real banking connector or live broker mutation in that acceptance.
 
 Production operation would require further authorization controls, secret management, transport security, provider-specific integration, monitoring, recovery validation and applicable financial controls. More realistic execution and research models are also future work. The [roadmap](ROADMAP.md) describes those possibilities without treating them as installed capabilities.
+
+Use the [system inventory](SYSTEM-INVENTORY.md) to locate the original code, [capabilities](CAPABILITIES.md) for dated test scope, and the [continuation guide](CONTINUATION-GUIDE.md) before attempting development on another machine.
